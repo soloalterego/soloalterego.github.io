@@ -1,7 +1,7 @@
 # Jekyll configuration
 
-name: Blog Name
-description: Software Developer
+name: Soloalterego
+description: Mind Dump
 
 # Url is currently only used only for the RSS feed in feed.xml
 url: http://soloalterego.github.io
@@ -19,11 +19,11 @@ share:
   email: true
 
 social:
-  github: streetturtle
+  github: soloalterego
   stackoverflow: ''
-  linkedin:
+#  linkedin:
   instagram: ''
-  lastfm: ''
+  lastfm: 'soloalterego'
   rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
