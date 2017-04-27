@@ -11,10 +11,10 @@ url: http://soloalterego.github.io
 baseurl: ''
 
 share:
-  facebook: true
+#  facebook: true
   twitter: true
   gplus: true
-  linkedin: true
+#  linkedin: true
   pinterest: true
   email: true
 
@@ -22,7 +22,7 @@ social:
   github: soloalterego
 #  stackoverflow: ''
 #  linkedin:
-  instagram: ''
+  instagram: 'soloalterego'
   lastfm: 'soloalterego'
   rss: feed.xml
 
