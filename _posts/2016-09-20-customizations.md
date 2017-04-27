@@ -23,13 +23,14 @@ Accent color is color for some important elements, such as links, buttons, icons
  //$accent-color: #35B4DE;  // bluish
  //$accent-color: #D2E354;  // yellowish
  // $accent-color: #52B54B;  // green
- 
+ //$accent-color: #E5FF00;  // hyper-yellow
+
 {% endhighlight %}
 
 You can use one of them (just hover over the label to see accent color in action) or define your own!
 
-<span class="label" style="background-color:#C38FD6; color:#444444">#C38FD6</span>, <span class="label" style="background-color:#8FD6B3; color:#444444">#8FD6B3</span>, <span class="label" style="background-color:#35B4DE; color:#444444">#35B4DE</span>, <span class="label" style="background-color:#D2E354; color:#444444">#D2E354</span>, <span class="label" style="background-color:#52B54B; color:#444444">#52B54B</span>. 
- 
+<span class="label" style="background-color:#C38FD6; color:#444444">#C38FD6</span>, <span class="label" style="background-color:#8FD6B3; color:#444444">#8FD6B3</span>, <span class="label" style="background-color:#35B4DE; color:#444444">#35B4DE</span>, <span class="label" style="background-color:#D2E354; color:#444444">#D2E354</span>, <span class="label" style="background-color:#52B54B; color:#444444">#52B54B</span>.
+
 <script>
   $('.label').hover(function(){
     var color = $(this).text();
