@@ -16,8 +16,8 @@
 //                    Variables
 //********************************************************
 
-//$accent-color: #41C404;    // Green
-$accent-color: #2562B8;    // Grey blue
+$accent-color: #41C404;    // Green
+//$accent-color: #2562B8;    // Grey blue
 
 $font-color: #dddddd;
 $background-color: #292929;
@@ -70,7 +70,15 @@ blockquote {
   font-size: 1em;
 }
 
-a {
+a:link {
+  color: $accent-color;
+}
+
+a:visited {
+  color: $accent-color;
+}
+
+a:hover {
   color: $accent-color;
 }
 
